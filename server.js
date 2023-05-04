@@ -1,5 +1,5 @@
 const express = require('express');
-// const apiRoutes = require('./routes/apiRoutes');
+const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 // 2. set up port usage for deployment environment
@@ -16,7 +16,7 @@ app.use(express.json());
 // make public folder readily available
 app.use(express.static('public'));
 // middleware for router - modularized api calls
-// app.use('/api', apiRoutes);
+app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 // 3. listen for requests to server
