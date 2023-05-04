@@ -17,7 +17,7 @@ router.delete('/notes/:id', (req, res) => {
     const updatedNotes = deleteNote(req.params.id, notes);
     if (updatedNotes) {
         console.log("response sent")
-        return res.json(updatedNotes);
+        res.end();
     } else {
         res.send(404);
     }

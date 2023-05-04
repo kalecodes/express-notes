@@ -1,22 +1,7 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text",
+    "title": "Click Me",
+    "text": "Click on any existing note to view it's content",
     "id": "0"
-  },
-  {
-    "title": "New Note",
-    "text": "New Note text",
-    "id": "1"
-  },
-  {
-    "title": "New Note",
-    "text": "New Note text",
-    "id": "3"
-  },
-  {
-    "title": "New Note",
-    "text": "New Note text",
-    "id": "4"
   }
 ]
